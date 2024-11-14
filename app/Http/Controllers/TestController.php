@@ -14,13 +14,14 @@ class TestController extends Controller
     public function index()
     {
         $questions = Question::all();
+
         return view('test.index', compact('questions'));
     }
 
     // Guardar las respuestas del usuario
     public function submit(Request $request)
     {
-        $userId = Auth::id();
+        $userId = '1';
         $answers = $request->input('answers');
 
         foreach ($answers as $questionId => $answerText) {

@@ -1,3 +1,14 @@
-<!-- Incluir Material Design 3 desde CDN -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@material/web-components@latest/dist/material-web-components.min.css">
-<script type="module" src="https://cdn.jsdelivr.net/npm/@material/web-components@latest/dist/material-web-components.min.js"></script>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+    @yield('content')
+</body>
+</html>
